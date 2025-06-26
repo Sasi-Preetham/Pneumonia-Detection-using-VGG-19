@@ -26,25 +26,9 @@ This project applies deep learning to detect pneumonia from chest X-ray images u
 Install required libraries before running:
 
 bash
-- pip install tensorflow keras matplotlib numpy scikit-learn seaborn
+`pip install tensorflow keras matplotlib numpy scikit-learn seaborn`
 
-🚀 How to Run
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/pneumonia-detection-vgg19.git
-cd pneumonia-detection-vgg19
-Launch Jupyter:
-
-bash
-Copy
-Edit
-jupyter notebook pneumonia.ipynb
-(Optional) Download the dataset and update the data paths inside the notebook.
-
-📈 Performance Metrics
+## 📈 Performance Metrics
 Healthy Class:
 
 Precision: 0.96
@@ -61,14 +45,14 @@ Recall: 0.98
 
 F1-Score: 0.93
 
-📷 Visual Results
+## 📷 Visual Results
 Training & validation accuracy/loss plots
 
 Confusion matrix heatmap
 
 Misclassified example visualizations (optional if added)
 
-📌 Highlights
+## 📌 Highlights
 Achieved strong performance even with limited data
 
 Emphasized generalizability using augmentation and regularization
